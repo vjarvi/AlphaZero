@@ -1,5 +1,6 @@
 import numpy as np
 import math
+from mcts.node import Node
 
 class MCTSParallel:
     """
