@@ -19,7 +19,7 @@ class TicTacToe():
       return state
 
     def get_valid_moves(self, state):
-      return ((state.reshape(-1) == 0).astype(np.uint8))
+      return ((state == 0).astype(np.uint8))
 
     def canonical_boards(self):
       pass
